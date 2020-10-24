@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+    font-family: roboto;
+
+}
