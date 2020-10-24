@@ -17,7 +17,7 @@
                 <thead>
                 <tr>
                     <th>Gênero</th>
-                    <th>Clique para alterar</th>
+                    <th>Clique para editar</th>
                     <th>Clique para excluir</th>
                 </tr>
                 </thead>
@@ -43,7 +43,7 @@
        </div>
 </main>
 <script>
-    function deleteItem(id){
+    function deleteItem(id) {
     const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
     const request = new Request(
         "/genero/delete/"+id,
