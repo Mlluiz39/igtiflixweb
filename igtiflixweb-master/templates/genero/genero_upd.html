@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IGTIFLIX</title>
+    <link href="{% static 'css/menu.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/crud.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<main>
+{% include "../menu.html" %}
+</main>
+<div class="container">
+    <div>
+        <form onsubmit="/genero" id="form-genero" method="post">
+            {{form}}
+            {% csrf_token %}
+            <input type="submit" id="submit-button" class="submit-button" value="Alterar"/>
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>

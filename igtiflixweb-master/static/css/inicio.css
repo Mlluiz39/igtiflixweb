@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+    font-family: roboto;
+}
+
+img {
+max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  padding: 0;
+  overflow : hidden;
+}
